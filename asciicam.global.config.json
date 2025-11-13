@@ -3,7 +3,7 @@
 	"cameraDelay":0,  "//":"Camera Frames Delay (low end user)",
 
 	"fps":60,         "//":"Max Fps can be reached / maintained",
-	"fpsDisplay":true,"//":"Show Fps",
+	"fpsDisplay":false,"//":"Show Fps",
 
 	"font":"consolas",        "//":"Installed Font Name",
 	"fontSize":16,    "//":"Adjust according to your screen",

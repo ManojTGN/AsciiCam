@@ -1,16 +1,13 @@
 CC = g++
-BINS = asciicam clean
+BINS = asciicam
 
 CFLAGS = -Wall -Wextra
-CVFLAGS = -lopencv_videoio455 -lopencv_core455 -lopencv_highgui455 -lopencv_imgproc455
+CVFLAGS = -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_videoio -lopencv_stitching
 
-CVLIB = ./opencv/build/x64/mingw/lib
-CVINCLUDE = ./opencv/build/include
+CVLIB = C:/msys64/mingw64/lib
+CVINCLUDE = C:/msys64/mingw64/include/opencv4
 
 all: $(BINS)
-
-clean:
-	rm -f ./build/*.o
 
 ac_cmd.o:
 	$(CC) -c ./src/ac_cmd.cpp -o ./build/ac_cmd.o -L$(CVLIB) -I$(CVINCLUDE) $(CVFLAGS)
