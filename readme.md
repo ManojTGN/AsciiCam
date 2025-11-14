@@ -1,4 +1,6 @@
-# AsciiCam CMD
+# AsciiCam
+
+<img width="1080" height="200" alt="asciicam" src="https://github.com/user-attachments/assets/8461e060-bfc8-4252-93c6-b3f594e0c929" />
 
 This C++ program captures frames from your webcam and converts them into ASCII art in real-time. and it will produce the output ascii art in the terminal. You can customize the output, change cameras, add your own ASCII characters, and more.
 ![Capture2](https://github.com/ManojTGN/asciicam-cmd/assets/42494649/1db71409-234b-4fb6-90fd-45cf70a67404)
@@ -21,4 +23,5 @@ This C++ program captures frames from your webcam and converts them into ASCII a
 1. Clone or download this repository to your local machine.
 2. Make sure you have the OpenCV library installed.
 3. Compile the program using makefile.
+
 
